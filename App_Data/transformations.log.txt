@@ -1,0 +1,108 @@
+2/13/2018 8:19:05 AM
+Transformation file version: 10266000 
+
+Executing Remove (transform line 8, 12)
+on /configuration/system.web/httpHandlers/add[@path='Telerik.Sitefinity.LibrariesRadUploadHandler.ashx']
+Applying to 'add' element (no source line info)
+Removed 'add' element
+Done executing Remove
+Executing Remove (transform line 16, 11)
+on /configuration/system.webServer/handlers/remove[@name='Telerik.Sitefinity.LibrariesRadUploadHandler']
+Applying to 'remove' element (no source line info)
+Removed 'remove' element
+Done executing Remove
+Executing Remove (transform line 23, 12)
+on /configuration/system.webServer/handlers/add[@name='Telerik.Sitefinity.LibrariesRadUploadHandler']
+Applying to 'add' element (no source line info)
+Removed 'add' element
+Done executing Remove
+Executing InsertIfMissing (transform line 29, 12)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+File: , LineNumber: 31, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='IdentityServer3']/parent::*'
+Not executing Remove (transform line 31, 26)
+Executing InsertIfMissing (transform line 32, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='IdentityServer3']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 32, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='IdentityServer3']'
+Not executing Replace (transform line 33, 102)
+Executing Remove (transform line 38, 26)
+on /configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Owin']/parent::*
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 39, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 39, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin']'
+Not executing Replace (transform line 40, 101)
+File: , LineNumber: 45, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Owin.StaticFiles']/parent::*'
+Not executing Remove (transform line 45, 26)
+Executing InsertIfMissing (transform line 46, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.StaticFiles']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 46, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.StaticFiles']'
+Not executing Replace (transform line 47, 113)
+File: , LineNumber: 52, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Owin.FileSystems']/parent::*'
+Not executing Remove (transform line 52, 26)
+Executing InsertIfMissing (transform line 53, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.FileSystems']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 53, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.FileSystems']'
+Not executing Replace (transform line 54, 113)
+File: , LineNumber: 59, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Owin.Cors']/parent::*'
+Not executing Remove (transform line 59, 26)
+Executing InsertIfMissing (transform line 60, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Cors']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 60, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Cors']'
+Not executing Replace (transform line 61, 106)
+File: , LineNumber: 66, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Owin.Security']/parent::*'
+Not executing Remove (transform line 66, 26)
+Executing InsertIfMissing (transform line 67, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Security']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 67, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Security']'
+Not executing Replace (transform line 68, 110)
+File: , LineNumber: 73, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Owin.Security.OAuth']/parent::*'
+Not executing Remove (transform line 73, 26)
+Executing InsertIfMissing (transform line 74, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Security.OAuth']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 74, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Security.OAuth']'
+Not executing Replace (transform line 75, 116)
+File: , LineNumber: 80, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Owin.Security.Cookies']/parent::*'
+Not executing Remove (transform line 80, 26)
+Executing InsertIfMissing (transform line 81, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Security.Cookies']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 81, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Security.Cookies']'
+Not executing Replace (transform line 82, 118)
+File: , LineNumber: 87, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Owin.Security.Jwt']/parent::*'
+Not executing Remove (transform line 87, 26)
+Executing InsertIfMissing (transform line 88, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Security.Jwt']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 88, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Owin.Security.Jwt']'
+Not executing Replace (transform line 89, 114)
+
+

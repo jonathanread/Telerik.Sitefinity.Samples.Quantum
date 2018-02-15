@@ -2,14 +2,13 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Resources;
-using System.Web.UI;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyCompany("Progress")]
 [assembly: AssemblyProduct("Progress Sitefinity CMS")]
-[assembly: AssemblyCopyright("Â© 2018 Telerik AD. All rights reserved.")]
+[assembly: AssemblyCopyright("Copyright © 2005-2017 Telerik AD. All rights reserved.")]
 [assembly: AssemblyTrademark("Sitefinity")]
 [assembly: AssemblyTitle("Sitefinity Web Application")]
 [assembly: AssemblyDescription("")]
@@ -34,13 +33,11 @@ using System.Web.UI;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("9.2.6200.0")]
-[assembly: AssemblyFileVersion("9.2.6200.0")]
+[assembly: AssemblyVersion("10.2.6602.0")]
+[assembly: AssemblyFileVersion("10.2.6602.0")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
 
 
-[assembly: WebResource("SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.bootstrap.min.js", "application/x-javascript")]
-[assembly: WebResource("SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.quantum.js", "application/x-javascript")]
 
 [assembly: Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes.ControllerContainer]
 
